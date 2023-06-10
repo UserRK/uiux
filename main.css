@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./fonts/Gilroy-Semibold.ttf) format('ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Morganite';
+    src: url(./fonts/morganite_bold.ttf) format('ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./fonts/Gilroy-Regular.ttf) format('ttf');
+    font-weight: 200;
+}
+
+body {
+    background-color: #3C3D3C;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height:34px;
+        /* identical to box height */
+    
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    
+        color: #E3E3E3;
+    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3C3D3C;
+    font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 35px;
+}
+
+.title {
+font-family: 'Morganite';
+font-style: bold;
+font-weight: 800;
+font-size: 100px;
+line-height: 100px;
+letter-spacing: 0.08em;
+color: white;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.kl {
+    position: absolute;
+        width: 257px;
+        height: 100px;
+        left: 32px;
+        top: 32px;
+}
+
+
+.roman-wrap {
+    position: absolute;
+        width: 774px;
+        height: 148px;
+        left: 307px;
+        top: 0px;
+        background: #AFE15D;
+}
+
+.r {
+    margin-left: 20px;
+    margin-top: 28px;
+}
+.ux {
+    position: absolute;
+        left: 32px;
+        top: 117px;
+        font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500px;
+            font-size: 26px;
+            line-height: 32px;
+            /* identical to box height */
+        
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+        
+            color: #E3E3E3;
+        
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} 
+.title-dark {
+    font-family: 'Morganite';
+        font-style: bold;
+        font-weight: 800;
+        font-size: 120px;
+        line-height: 120px;
+        letter-spacing: 0.08em;
+        color: #3C3D3C;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.age-wrap {
+box-sizing: border-box;
+background-color: #AFE15D;
+position: absolute;
+    width: 390px;
+    height: 148px;
+    left: 633px;
+    top: 211px;
+    z-index: 1;
+} 
+.age-div {
+    margin-left: 24px;
+    margin-top: 28px;
+}
+.age-p {
+    font-family: 'Morganite';
+        font-weight: 800;
+        font-size: 100px;
+        line-height: 100px;
+        letter-spacing: 0.08em;
+        margin: 0;
+        color: #3C3D3C;
+}
+
+.header {
+position: relative;
+height: 487px;
+background-color: #3C3D3C;
+background-image: url(./img/lorem.png);
+}
+
+.contacts {
+position: relative;
+box-sizing: border-box;
+background-color: #AFE15D;
+height: 82px;
+}
+
+.tel {
+    position: absolute;
+        left: 24px;
+        top: 24px;
+    
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 35px;
+        /* identical to box height */
+    
+    
+        color: #3C3D3C;
+}
+
+.mail {
+    position: absolute;
+        left: 600px;
+        top: 24px;
+    
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 28px;
+    
+        color: #3C3D3C;
+}
+
+.myimg {
+    box-sizing: border-box;
+        z-index: 2;
+        position: absolute;
+        width: 301px;
+        height: 359px;
+        left: 732px;
+        top: 64px;
+}
+
+.location {
+position: absolute;
+    left: 32px;
+    top: 434px;
+    
+}
+
+.location-txt {
+    font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 37px;
+    
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+
+.edu {
+    background-image: url(./img/lorem2.png);
+    position: relative;
+    height: 862px;
+    
+}
+
+.edu-title {
+
+        padding-top: 38px;
+        margin-left: 32px;
+}
+.edu-txt {
+width: 377px;
+margin-left: 32px;
+}
+
+.edu-img {
+    position: absolute;
+        left: 507px;
+        top: 48px;
+}
+
+.separator {
+    box-sizing: border-box;
+    height: 82px;
+    background-color: #AFE15D;
+    margin-top: 0;
+}
+
+.separator-mini {
+    box-sizing: border-box;
+        height: 41px;
+        background-color: #AFE15D;
+        margin-top: 0;
+}
+.separator-micro {
+    box-sizing: border-box;
+    background-color: white;
+    width: 459px;
+    height: 2px;
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px ;
+}
+.edu-ux-goit {
+    margin-left: 32px;
+    margin-top: 18px;
+    width: 377px;
+
+}
+
+.edu-ux-goitjs {
+    margin-left: 32px;
+}
+
+.KK {
+    padding-left: 32px;
+    width: 377px;
+}
+
+.MC {
+    padding-left: 32px;
+    margin-bottom: 0px;
+}
+
+.work {
+    box-sizing: border-box;
+    background-image: url(./img/lorem2.png);
+}
+
+.work-title {
+    padding-top: 48px;
+    padding-left: 32px;
+    padding-bottom: 16px;
+}
+.work-txt {
+    padding-left: 32px;
+    padding-bottom: 48px;
+}
+
+.skills-section {
+    position: relative;
+    box-sizing: border-box;
+    background-image: url(./img/lorem2.png);
+}
+
+.skills-title {
+    padding-top: 48px;
+    padding-left: 32px;
+    padding-bottom: 24px;
+}
+
+.skills-icons {
+   padding-left: 32px;
+   padding-right: 32px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+.skills-ico {
+    padding-bottom: 41px;
+}
+.skills-bar {
+    width: 128px;
+    height: 12px;
+    padding: 28px 32px;
+}
+
+.mypro {
+    background-image: url(./img/lorem2.png);
+    position: relative;
+}
+.mypro-title {
+    padding-top: 48px;
+    padding-left: 32px;
+}
+
+.card {
+    position: absolute;
+            left: 100px;
+            top: 160px;
+            z-index: 2;
+}
+
+.school {
+    position: absolute;
+        left: 460px;
+        top: 100px;
+        z-index: 1;
+        
+}
+
+.promo {
+    position: absolute;
+        left: 160px;
+        top: 660px;
+        z-index: 1;
+}
+
+.behance {
+    position: absolute;
+        top: 1200px;
+      
+}
